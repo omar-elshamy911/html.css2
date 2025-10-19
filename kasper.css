@@ -1,26 +1,26 @@
- /*start variables*/
- :root{
-  --main-color:#19c8fa;
+/* Start Variables */
+:root {
+  --main-color: #19c8fa;
   --transparent-color: rgb(15 116 143 / 70%);
-  --section-padding:100px;
- }
- /*start global rules*/
-*{
+  --section-padding: 100px;
+}
+/* End Variables */
+/* Start Global Rules */
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-body{
-    font-family: "open sans" , "sans-serif";
-   
+body {
+  font-family: "Open Sans", sans-serif;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 .container {
   padding-left: 15px;
@@ -46,7 +46,8 @@ ul{
     width: 1170px;
   }
 }
-/*End global rules*/
+/* End Global Rules */
+/* Start Components */
 .main-heading {
   text-align: center;
 }
@@ -86,13 +87,14 @@ ul{
   line-height: 2;
   color: #777;
 }
- header { 
+/* Start Header */
+header {
   position: absolute;
   left: 0;
   width: 100%;
   z-index: 2;
 }
- header .container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -176,6 +178,7 @@ header nav .form i {
   transform: translateY(-50%);
   right: 0;
 }
+/* End Header */
 /* start landing */
 .landing{
  min-height:100vh;
